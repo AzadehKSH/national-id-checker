@@ -14,4 +14,15 @@ The national code is a 10-digit number. The first three digits from the left ind
 2. Divide the sum obtained from step one by 11.
 3. If the residual of the division is less than two, the control digit must be equal to the residual, otherwise the control digit must be equal to the result of (11-residual).
 
+* For example:
+
+Input: /?id=0049557025 
+
+Output: 
+{
+    "City": "Tehran-Center",
+    "National-ID": "0049557025",
+    "Result": "National-ID is Valid"
+}
+
 
